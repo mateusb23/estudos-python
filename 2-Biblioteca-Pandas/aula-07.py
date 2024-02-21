@@ -19,6 +19,7 @@ print(f'{s} \n')
 # VEJAMOS OS EXEMPLOS ABAIXO.
 # utilizamos o índice igual a zero, ao invés de utilizarmos a letra A, que abilitamos como o verdadeiro índice da primeira posição...
 print(f' {s[0]} \n')
+print(f' {s.iloc[0]} \n')
 print(f' {s['A']} \n')
 
 # utilizando Series com slices:

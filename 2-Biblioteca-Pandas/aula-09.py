@@ -22,7 +22,7 @@ print(f'Me mostre as 8 primeiras linhas do DataFrame peso-altura.xslx ---> \n{da
 print(f'O Shape do DataFrame peso-altura.xslx : {dataframe_2.shape} \n')
 
 # COMO CONVERTER um aquivo .xslx para .csv:
-print('----- CONVERTENDO PLANILHA PRA O FORMATO .csv  ... \n')
+print('----- CONVERTENDO PLANILHA .xlsx PRA O FORMATO .csv  ... \n')
 dataframe_2.to_csv("./datasets/peso-altura.csv")
 
 # COMO CONVERTER um arquivo .csv para .xslx:
